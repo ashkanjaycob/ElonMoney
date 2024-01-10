@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'YekanBakh';
+    src: url('../assets/YekanBakhFaNum-Regular.woff') format('woff2'),
+         url('../assets/YekanBakhFaNum-Bold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'YekanBakhbold';
+    src:  url('../assets/YekanBakhFaNum-Bold.woff') format('woff');
+  }
+
+div {
+    /* background: url(../assets/Elon.png); */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    direction: rtl;
+    font-size: 5rem !important;
+    color: #ffffff;
+    font-family: YekanBakh;
+}
+.customImageSize  {
+    width: 40%;
+
+}
+.purpletxt {
+    font-family: YekanBakhbold , Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #8561F2;
+}
